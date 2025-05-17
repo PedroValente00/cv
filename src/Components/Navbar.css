@@ -6,21 +6,30 @@
     align-content: center;
     flex-wrap: wrap;
     padding: 0 16em;
+    color: white;
 }
 
 .navbar__image{
     width: 50px;
-    margin-right: 1em;
 }
 
-/* .navbar__title{
-    font-size: 2em;
-} */
+.navbar__title{
+    margin-left:-1em
+}
 
 .navbar__list{
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    gap:1em
+    gap:2em
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
 }

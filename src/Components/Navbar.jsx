@@ -1,5 +1,5 @@
 import "./Navbar.css"
-import logo from '/logo.svg'
+import logo from '/logo.png'
 
 export default function Navbar() {
     return (

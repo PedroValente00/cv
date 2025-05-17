@@ -8,7 +8,7 @@ import mongodb from "../assets/icons/mongodb.svg"
 
 const tech = [
     { name: "MongoDB", src: mongodb },
-    { name: "ExpressJs", src: express },
+    { name: "ExpressJs", src: express, hardToRead:true },
     { name: "React", src: react },
     { name: "NodeJs", src: node }
     // { name: "Vite", src: vite },
@@ -19,11 +19,12 @@ export default function Splash() {
     return (
         <section className="splash">
             <article className="splash__left">
-                <h1>Junior web Developer</h1>
-                <p>Building clean, responsive websites with React & Node.js</p>
+                <h1>Junior web developer</h1>
+                <p className="splash__intro">Building clean, responsive websites with React & Node.js</p>
                 <aside className="splash__technologies">
                     {tech.map((t, i) => {
-                        return <img src={t.src} alt={t.name} key={i} title={t.name} />
+                        return <img src={t.src} alt={t.name} key={i} title={t.name}
+                        style={t.hardToRead && {filter:"invert(1)"}} />
                     })}
                 </aside>
             </article>
