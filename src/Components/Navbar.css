@@ -1,0 +1,26 @@
+.navbar{
+    /* background-color: darkgray; */
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 0 16em;
+}
+
+.navbar__image{
+    width: 50px;
+    margin-right: 1em;
+}
+
+/* .navbar__title{
+    font-size: 2em;
+} */
+
+.navbar__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap:1em
+}

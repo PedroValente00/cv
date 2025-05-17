@@ -1,0 +1,28 @@
+.splash {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    padding: 4em 2em 1em;
+    font-size: 1.5em;
+    /* color: white; */
+
+}
+
+.splash__image {
+    width: 50vw;
+    /* border: 1px solid white; */
+}
+.splash__technologies{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.splash__technologies >img{
+    width:100px
+}
