@@ -7,10 +7,10 @@ import mongodb from "../assets/icons/mongodb.svg"
 // import vite from "../assets/icons/vite.svg"
 
 const tech = [
-    { name: "MongoDB", src: mongodb },
-    { name: "ExpressJs", src: express, hardToRead:true },
+    { name: "MongoDB", src: mongodb, style:{filter:"brightness(1.5)"} },
+    { name: "ExpressJs", src: express, style:{filter:"invert(1)"} },
     { name: "React", src: react },
-    { name: "NodeJs", src: node }
+    { name: "NodeJs", src: node, style:{filter:"brightness(1.5)"} }
     // { name: "Vite", src: vite },
 ]
 
@@ -24,7 +24,7 @@ export default function Splash() {
                 <aside className="splash__technologies">
                     {tech.map((t, i) => {
                         return <img src={t.src} alt={t.name} key={i} title={t.name}
-                        style={t.hardToRead && {filter:"invert(1)"}} />
+                        style={t.style} />
                     })}
                 </aside>
             </article>

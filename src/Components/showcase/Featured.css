@@ -10,9 +10,14 @@
 }
 
 .project__image{
-    /* width: 40vw; */
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: scale-down;
+}
+
+.project__name{
+    font-size: 2em;
+    color: #4d4d4d;
 }
 
 .underlined{
@@ -35,11 +40,11 @@
   background-color: #0d6efd;
   display: inline-block;
   text-align: center;
-  line-height: 1em;
   border: none;
   line-height: 3em;
   padding: 0 1em;
   border-radius: 5px;
+  font-size:1em;
 }
 
 .project__button:hover {

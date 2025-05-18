@@ -1,12 +1,12 @@
 import './App.css'
-import Cover from "./Components/Cover.jsx"
-import Project from './Components/Projects/Project.jsx'
+import Cover from "./components/Cover.jsx"
+import Showcase from './components/showcase/Showcase.jsx'
 function App() {
 
   return (
     <>
     <Cover/>
-    <Project/>
+    <Showcase/>
     </>
   )
 }
