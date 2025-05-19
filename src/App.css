@@ -3,5 +3,7 @@
 body {
   margin: 0;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  /* font-size: 1.2em; */
 }
+
+/* mobile styles are imported in Footer.jsx component */
+/* so they can override other styles */

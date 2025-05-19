@@ -1,27 +1,49 @@
 .project {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    padding: 4em 5em 1em;
-    flex-wrap: nowrap;
-    gap:2em
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 0 5em 1em;
+  flex-wrap: nowrap;
+  gap: 2em;
+  margin-bottom: 4em;
 }
 
-.project__image{
-    width: 400px;
-    height: 400px;
-    object-fit: scale-down;
+.project__even {
+  flex-direction: row-reverse
 }
 
-.project__name{
-    font-size: 2em;
-    color: #4d4d4d;
+.project__odd {
+  flex-direction: row;
 }
 
-.underlined{
-    text-decoration: underline;
+.project__image {
+  width: 400px;
+  height: 400px;
+  object-fit: scale-down;
+  border: 1px solid #929397;
+  padding: 0.5em
+}
+
+.project__name {
+  font-size: 1.4em;
+  color: #1da1f2;
+  font-family: system-ui;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.project__description {
+  font-size: 1.2em;
+  color: #4d4d4d;
+  line-height: 1.5em;
+}
+
+.underlined {
+  text-decoration: underline;
 }
 
 .project__nav {
@@ -37,23 +59,26 @@
 .project__button {
   cursor: pointer;
   color: #fff;
-  background-color: #0d6efd;
+  background-color: #4473c9;
   display: inline-block;
   text-align: center;
+  width: 220px;
   border: none;
   line-height: 3em;
   padding: 0 1em;
   border-radius: 5px;
-  font-size:1em;
+  font-size: 1em;
 }
 
 .project__button:hover {
   color: #fff;
-  background-color: #0b5ed7;
+  background-color: #45527a;
+  box-shadow: 0px 0px 2px #45527a
 }
 
 .project__button:active {
-  background-color: #114da5;
+  background-color: #2b3554;
+  box-shadow: 0px 0px 5px black
 }
 
 .project__button>img {

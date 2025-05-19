@@ -1,0 +1,13 @@
+.showcase {
+  margin-top: 2em;
+}
+
+.showcase__title {
+  color: #1da1f2;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2em;
+  font-family: system-ui;
+  text-transform: uppercase;
+  margin: 2em 0em 1em;
+}

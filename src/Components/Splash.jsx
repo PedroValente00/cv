@@ -19,7 +19,7 @@ export default function Splash() {
     return (
         <section className="splash">
             <article className="splash__left">
-                <h1>Junior web developer</h1>
+                <h2 className="splash__title">Junior web developer</h2>
                 <p className="splash__intro">Building clean, responsive websites with React & Node.js</p>
                 <aside className="splash__technologies">
                     {tech.map((t, i) => {

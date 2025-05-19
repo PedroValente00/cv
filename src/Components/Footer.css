@@ -1,0 +1,90 @@
+/* Footer.css is also used for mobile styles */
+/* It overrides previous styles by being imported last */
+
+@media screen and (width < 1500px) {
+  body {
+    text-align: justify;
+  }
+
+  .navbar {
+    padding: 0 5em;
+  }
+
+  .splash {
+    padding: 5em 6em 1em;
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .splash__image {
+    width: auto;
+  }
+
+  .project {
+    padding: 0 2em 1em
+  }
+}
+
+@media screen and (width < 1025px) {
+  .project {
+    flex-wrap: wrap;
+    gap: 1
+  }
+
+  .project__odd {
+    flex-direction: column-reverse;
+  }
+
+  .project__even {
+    flex-direction: column-reverse;
+  }
+
+  .project>aside {
+    order: 2
+  }
+
+  .project>article {
+    order: 1
+  }
+
+  .project__image {
+    width: 80vw;
+    height: auto;
+  }
+}
+
+
+@media screen and (width < 765px) {
+  .navbar {
+    justify-content: center;
+    padding: 1em 0 0;
+  }
+
+  .navbar__left {
+    display: none
+  }
+
+  .splash {
+    font-size: 1em
+  }
+
+  .splash__image {
+    width: 80vw;
+  }
+
+  .splash__technologies {
+    margin: 1em;
+
+  }
+
+  .project {
+    gap: 0
+  }
+
+  .project__ul {
+    padding-left: 0;
+    text-align: left;
+
+  }
+}

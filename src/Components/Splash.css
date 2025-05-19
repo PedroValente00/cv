@@ -12,19 +12,32 @@
     width: 40vw;
 }
 
-.splash__intro{
-color: #ccc;
+.splash__intro {
+    color: #ccc;
 }
 
-.splash__technologies{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    justify-content: center;
+.splash__left {
+    font-family: system-ui;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+.splash__title {
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.splash__technologies {
+    display: flex;
     align-content: center;
-    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 0em 1em;
+
 }
 
-.splash__technologies >img{
-    width:100px
+.splash__technologies>img {
+    width: 100px
 }
