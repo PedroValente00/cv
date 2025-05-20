@@ -37,6 +37,7 @@
 
   .about {
     padding: 0 4em;
+    margin-top:10em
   }
 }
 
@@ -69,6 +70,7 @@
 
   .about {
     padding: 0 2em;
+    margin-top:5em
   }
 }
 
@@ -112,11 +114,13 @@
     gap: 1em
   }
 
-  .contact__container {
-    margin: 1em auto;
+  .contact {
+    margin: 1em;
   }
 
-  .contact {
-    margin: 0;
+  .contact__container {
+    margin: 1em auto;
+    padding: 0.8em;
   }
+
 }
