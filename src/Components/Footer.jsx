@@ -1,9 +1,10 @@
 import "./Footer.css"
 
-export default function Cover() {
+export default function Footer() {
     return (
-        <header className="footer">
-          
-        </header>
+        <footer className="footer">
+          <section>Pedro Valente</section>
+          <section> &copy; {new Date().getFullYear()}</section>
+        </footer>
     )
 }

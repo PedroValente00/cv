@@ -1,3 +1,13 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.8em;
+  background: linear-gradient(34deg, #131219, #212329 40%, #545e7c);
+  color: #fff;
+
+}
+
 /* Footer.css is also used for mobile styles */
 /* It overrides previous styles by being imported last */
 
@@ -22,7 +32,11 @@
   }
 
   .project {
-    padding: 0 2em 1em
+    padding: 0 2em 1em;
+  }
+
+  .about {
+    padding: 0 4em;
   }
 }
 
@@ -41,16 +55,20 @@
   }
 
   .project>aside {
-    order: 2
+    order: 2;
   }
 
   .project>article {
-    order: 1
+    order: 1;
   }
 
   .project__image {
     width: 80vw;
     height: auto;
+  }
+
+  .about {
+    padding: 0 2em;
   }
 }
 
@@ -62,11 +80,11 @@
   }
 
   .navbar__left {
-    display: none
+    display: none;
   }
 
   .splash {
-    font-size: 1em
+    font-size: 1em;
   }
 
   .splash__image {
@@ -79,12 +97,26 @@
   }
 
   .project {
-    gap: 0
+    gap: 0;
   }
 
   .project__ul {
     padding-left: 0;
     text-align: left;
 
+  }
+
+  .about {
+    padding: 0 2em;
+    flex-direction: column;
+    gap: 1em
+  }
+
+  .contact__container {
+    margin: 1em auto;
+  }
+
+  .contact {
+    margin: 0;
   }
 }

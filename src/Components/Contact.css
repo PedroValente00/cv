@@ -1,0 +1,35 @@
+/* .contact{
+
+} */
+.contact{
+    display:flex;
+    flex-direction: column;
+    margin:4em 0em
+}
+
+.contact__container{
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin: 2em auto;
+    font-family: Georgia, serif;
+    background-color: #fafafa;
+}
+
+.contact__title {
+    font-size: 1.3rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact__item {
+    margin: 0.5rem 0;
+}
+
+.contact__icon{
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    padding:0em 10px;
+}

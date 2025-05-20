@@ -6,7 +6,7 @@ export default function Featured({ project }) {
 
     return (
         <section className="project__container" >
-            <h2 className="project__name">{project.name}</h2>
+            <h3 className="project__name">{project.name}</h3>
             <div className={isEven ? "project project__even" : "project project__odd"}>
                 <aside>
                     <img src={project.image} alt="image" className="project__image" />

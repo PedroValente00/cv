@@ -40,7 +40,7 @@ export default function Showcase() {
     return (
         <section className="showcase">
 
-            <h3 className="showcase__title" id="featured">Featured projects</h3>
+            <h2 className="showcase__title" id="featured">Featured projects</h2>
             <section className="featured__section">
 
             {
@@ -50,9 +50,11 @@ export default function Showcase() {
             }
             </section>
             
-            <h3 className="showcase__title" id="smaller">Smaller projects</h3>
+            <section className="smaller__section__container">
+            <h3 className="smaller__title" id="smaller">Smaller projects</h3>
             <section className="smaller__section">
             <Smaller />
+            </section>
             </section>
         </section>
     )
