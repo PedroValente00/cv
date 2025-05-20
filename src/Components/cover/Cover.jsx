@@ -1,5 +1,5 @@
-import Navbar from "./Navbar"
-import Splash from "./Splash"
+import Navbar from "./navbar/Navbar"
+import Splash from "./splash/Splash"
 
 import "./Cover.css"
 

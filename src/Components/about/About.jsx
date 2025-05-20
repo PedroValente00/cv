@@ -1,4 +1,4 @@
-import pedro from "../assets/Pedro.jpg"
+import pedro from "../../assets/Pedro.jpg"
 import "./About.css"
 export default function About() {
                 

@@ -1,10 +1,10 @@
 import "./Splash.css"
-import programmer from '../assets/programmer.png'
-import express from "../assets/icons/express.svg"
-import node from "../assets/icons/node.svg"
-import react from "../assets/icons/react.svg"
-import mongodb from "../assets/icons/mongodb.svg"
-// import vite from "../assets/icons/vite.svg"
+import programmer from '../../../assets/programmer.png'
+import express from "../../../assets/icons/express.svg"
+import node from "../../../assets/icons/node.svg"
+import react from "../../../assets/icons/react.svg"
+import mongodb from "../../../assets/icons/mongodb.svg"
+
 
 const tech = [
     { name: "MongoDB", src: mongodb, style:{filter:"brightness(1.5)"} },

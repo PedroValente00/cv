@@ -1,9 +1,9 @@
 import './App.css'
-import Cover from "./components/Cover.jsx"
+import Cover from "./components/cover/Cover.jsx"
 import Showcase from './components/showcase/Showcase.jsx'
-import About from './components/About.jsx'
-import Contact from './components/Contact.jsx'
-import Footer from './components/Footer.jsx'
+import About from './components/about/About.jsx'
+import Contact from './components/contact/Contact.jsx'
+import Footer from './components/footer/Footer.jsx'
 function App() {
 
   return (
